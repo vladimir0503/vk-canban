@@ -22,7 +22,10 @@ export const useCreateForm = (addItem, parentId, propName, isLocalState, initial
     };
 
     const handleSubmit = React.useCallback(async e => {
-        e.preventDefault();
+        if (e) {
+            e.preventDefault();
+        }
+
         if (!name.trim().length) {
             setError(true);
             setErrData(errors.emptyField);
