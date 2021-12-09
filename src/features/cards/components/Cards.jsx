@@ -11,11 +11,6 @@ const Cards = ({ columnId }) => {
 
     const createCard = React.useCallback(card => setCards([...cards, card]), [cards]);
 
-    const deleteCard = React.useCallback(id => {
-        const filterCards = cards.filter(card => card.id !== id);
-        setCards(filterCards);
-    }, [cards]);
-
     React.useEffect(async () => {
         const cards = await api.getDataOnParameters('cards', 'columnId', columnId);
         setCards(cards);
@@ -28,7 +23,6 @@ const Cards = ({ columnId }) => {
                     <ColumnCard
                         key={id}
                         id={id}
-                        removeCard={deleteCard}
                     >
                         {name}
                     </ColumnCard>)}
