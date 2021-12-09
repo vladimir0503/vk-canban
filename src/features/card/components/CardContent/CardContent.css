@@ -1,0 +1,12 @@
+.CardContent h3 {
+    color: var(--accent);
+}
+
+.CardContent h2 {
+    color: var(--accent);
+}
+
+.CardContent__buttons {
+    display: flex;
+    justify-content: space-between;
+}

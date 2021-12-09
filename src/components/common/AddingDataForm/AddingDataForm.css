@@ -1,0 +1,23 @@
+.AddingDataForm__inputWrapper {
+    padding: 12px 12px 0 12px;
+}
+
+.AddingDataForm__input {
+    width: 100%;
+    font-size: inherit;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.AddingDataForm__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.AddingDataForm__actionButton {
+    flex-grow: 1;
+}

@@ -1,0 +1,9 @@
+.ColumnCard__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Cards__createButton {
+    padding: 12px 12px 0 12px;
+}

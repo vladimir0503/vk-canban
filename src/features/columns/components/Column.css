@@ -1,0 +1,20 @@
+.Column {
+    box-sizing: border-box;
+}
+
+.Column__wrapper {
+    width: 294px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.Column__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Column__title .Header__content {
+    color: var(--white);
+}

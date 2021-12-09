@@ -1,0 +1,2 @@
+export const SET_ACTIVE_PANEL = 'APP/SET_ACTIVE_PANEL';
+export const SET_POPOUT = 'APP/SET_POPOUT';
